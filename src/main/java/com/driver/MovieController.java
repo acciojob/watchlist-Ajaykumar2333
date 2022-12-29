@@ -69,7 +69,7 @@ public class MovieController {
 
 
     @GetMapping("get-all-movies")
-    public ResponseEntity <List<String>> findAllMovies()
+    public ResponseEntity <List<String>> findAllMovies  ()
     {
 
         List<String> movies=movieService.getAllmovies();
